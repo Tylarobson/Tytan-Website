@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.main.css">
+<title>Gallery</title>
+<style>    
+body {
+    margin: 0;
+    font-family: Arial;
+        
+}
+ 
+.topnav {
+
+    background-color: black;
+    overflow: hidden;
+}
+    
+.topnav a:hover{
+    background-color: lightyellow;
+    color: black;
+    
+}
+
+.topnav a {
+  
+  text-align: right;
+  color: white;
+  padding: 10px;
+  font-style: ariel;
+  font-size: 18px;
+  text-decoration: none;
+}
+    
+.header {
+    text-align: center;
+        padding: 10px;
+   
+}
+   
+.row {
+    display: -ms- flexbox;
+    display: flex;
+    -ms- flex-wrap: wrap;
+    flex-wrap:wrap;
+    padding: 3px;
+   
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    
+.column {
+  -ms-flex: 15%;
+  flex: 15%;
+  max-width: 15%;
+  padding: 3px;
+}
+    
+.column img {
+  margin-top: 10px;
+  width: 100%;
+  
+}
+    
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+@media screen and (max-width: 1800px) {.column { 
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+        }
+}
+    
+@media screen and (max-width: 600px) {.column { 
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        }
+}
+    
+</style>
+</head>
+<body>
+      
+<div class="topnav"> 
+    
+    <img src="images/tyronelogo.jpg" alt="tyrones logo" width="200" height="100"> 
+    
+    <a class="active" href="index.html"> Home</a>
+    <a href="about.html" > My Info </a> 
+    <a href="festival.html"> Indiginous Festival </a>
+     <a href="shows.html"> Past and Upcoming Shows</a>
+    <a href="gallery.html"> Gallery </a>
+    <a href="contact.html"> Contact Me </a>
+    <input type="text" placeholder="Search">
+
+    </div>   
+    
+<div class="header"> 
+    
+    <body style="background-color:white;"> 
+    
+    <h2> Gallery </h2>
+    
+<div class="row">
+    <div class="column">
+        <img class="webdesign" src="images/tyrone.jpg" style="width:100%" float:left;>
+        <img class="webdesign" src="images/tytan.jpg" style="width:100%"> 
+        <img class="webdesign" src="images/ty.jpg" style="width:100%">
+        <img class="webdesign" src="images/dj.jpg" style="width:100%">
+ </div>
+        
+<div class="column">
+            <img class="webdesign" src="images/djing.jpg" style="width:100%" float:right;>
+            <img class="webdesign" src="images/indigi.jpg" style="width:100%" float:right;>
+             <img class="webdesign" src="images/inno.jpg" style="width:100%" float:right;>
+    
+        </div>
+        </div>
+    </body>
+    </html> 

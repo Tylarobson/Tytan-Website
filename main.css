@@ -1,0 +1,72 @@
+content {
+
+background-color: lightgreen;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+        
+}
+ 
+.topnav {
+
+    background-color: black;
+    overflow: hidden;
+}
+    
+.topnav a:hover{
+    background-color: lightyellow;
+    color: black;
+    
+}
+
+.topnav a {
+  
+  text-align: right;
+  color: white;
+  padding: 10px;
+  font-style: ariel;
+  font-size: 18px;
+  text-decoration: none;
+}
+ 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+h1 {
+
+    font-size: 30px;
+    font-family: Arial;
+    text-align: center;
+    background-color: white;
+    
+
+}
+
+h3 {
+    font-family: Arial;
+    text-align: center;
+    background-color: white;
+}
+
+h4 {
+    font-family: Arial;
+    text-align: center;
+    background-color: white;
+}
+
+
+@media only screen and (max-width:1800px) {
+  .topnav, .header, .content {
+    width: 100%;
+  }
+} 
